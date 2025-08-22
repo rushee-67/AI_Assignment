@@ -1,0 +1,9 @@
+COMPARISION:
+
+Best First Search (Greedy) uses only the heuristic to guide the search.
+It explores the node that looks closest to the goal but may miss the true shortest path.
+It’s faster but not always optimal.
+
+A* uses both the cost so far (g) and the heuristic (h), 
+ensuring that the found path is the shortest possible (optimal) if the heuristic is admissible.
+It may explore more nodes than Greedy but guarantees correctness.
